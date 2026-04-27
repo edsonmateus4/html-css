@@ -1,0 +1,20 @@
+
+  body {
+     border-radius: 100px;
+    background-color: lightgray; /* ou qualquer cor */
+    border: 2px solid black; /* opcional, para ver a borda */
+    padding: 20px; /* opcional, dá espaço interno */
+ }
+ h1 {
+            background-color: aqua;
+            font-style: italic;
+        }
+        h2 {
+            background-color: bisque;
+        }
+        .centro {
+            text-align: center;
+        }
+p {
+    text-align: justify;
+}

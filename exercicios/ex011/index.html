@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam conforme o tamaho da tela</h1>
+    <h2>Tags utilizadas <code>&lt;picture&gt;</code></h2>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens-do-guanabara/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens-do-guanabara/foto-m.png" type="image/png">
+        <img src="imagens-do-guanabara/foto-g.png" alt="Imagem flexível">
+    </picture>
+ 
+    <audio src="audio-do-guanabara/guanacast-33.mp3" controls autoplay></audio>
+
+   <video src="video-aleatorio/Aula de Canto   Vocalize para Vibrato.mp4" poster="imagens-do-guanabara/foto-p.png" controls></video>
+ <video width="600" poster="imagens-do-guanabara/foto-p.png" controls autoplay>
+        <source src="video-aleatorio/Aula de Canto   Vocalize para Vibrato.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+
+<iframe src="https://www.youtube.com/embed/VIDEO_ID"
+    referrerpolicy="strict-origin-when-cross-origin"  width="560" height="315" src="https://www.youtube.com/embed/dCP9uYLa8HA?si=VX8xdxw9pOCRXpjv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe>
+</body>
+</html>

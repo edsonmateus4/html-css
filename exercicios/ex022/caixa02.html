@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: hsl(0, 3%, 45%);
+            margin: 0px;
+                }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > nav {
+            background-color: grey;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+        }
+        article {
+            background-color: lightgrey;
+        }
+        article > aside {
+            background-color: grey;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Meu site
+         <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+  
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Notícia sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio iste modi aperiam fugit explicabo magni maxime nobis nulla eos nam ducimus optio fugiat ut tempora quam eligendi deleniti, laborum ipsam?</p>
+                <aside>
+                    <p> Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+        </footer>
+</body>
+</html>

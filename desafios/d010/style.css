@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+
+
+}
+body {
+    background-color: #83e1ad;
+}
+
+header {
+    background-color: rgb(2, 68, 11);
+    text-align: center;
+    border-radius: 10px;
+    background: #3DDC84;
+    background: linear-gradient(180deg, rgba(61, 220, 132, 1) 0%, rgba(47, 168, 102, 1) 26%, rgba(6, 61, 30, 1) 80%);
+    border: 2px solid black; /* opcional, para ver a borda */
+    padding: 55px 10px 10px 10px; /* opcional, dá espaço interno */
+    margin: -10px;
+}
+ nav{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.site {
+color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.subtitulo{
+    background: #3DDC84;
+    background: linear-gradient(90deg,rgba(61, 220, 133, 0.575) 0%, rgba(255, 255, 255, 1) 37%);
+    color: #063d1e;
+    font-family: 'idroid', Arial, Helvetica, sans-serif
+}
+.titulo{
+    color: #063d1e;
+    font-family: 'idroid', Arial, Helvetica, sans-serif
+
+}
+.conteudo {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 10px auto 0 auto;  /* 20px no topo para separar do header */
+    background-color: white;
+    padding: 40px;  /* ← Isso afasta as letras da borda */
+}
+aside {
+    background-color:#c6ebd6;
+}
+ul {
+    list-style: none;
+    padding-left: 40;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: black;
+    font-weight: bold;
+}
+.colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+}
