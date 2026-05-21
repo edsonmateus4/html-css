@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+        caption {
+            font-size: 2em;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População Brasileira</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 85%;">Localidade</th>
+                <th scope="col" style="width: 15%">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">20 673 280</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">11 760 550</td>	
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num"><strong>32.433.830</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
